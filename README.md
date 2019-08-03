@@ -50,11 +50,16 @@ while respones.status_code!=200:
 > https://movie.douban.com/j/new_search_subjects?sort=T&range=0,10&tags=%E7%94%B5%E5%BD%B1&start=0&genres=%E5%96%9C%E5%89%A7&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86
 
 `sort`:按热度排序为T、按时间排序为R、按评分排序为S
+
 `tags`:类型
+
 `countries`:地区
+
 `geners`:形式（电影、电视剧…）
+
 `start`:“加载更多”
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190803130613391.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzIxMzY3Mw==,size_16,color_FFFFFF,t_70)
 对于爬虫，这种`json`数据是很好的
 
-==总之先看下真实请求接口有没有好东西，没有的话再爬取网站源码数据==
+总之先看下真实请求接口有没有好东西，没有的话再爬取网站源码数据
